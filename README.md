@@ -78,7 +78,7 @@ In github, you are either an owner / collaborator on a project, or a third party
 
 2. Once you've forked this repository, clone it using the steps in part 2. Since this is your copy, you are the owner, so you can change it willy nilly. Let's go do that now.
 
-## 4 Your first changes
+## 5 Your first changes
 Now, we'll make some changes to this very repository, and tell Git that we've done so.
 1. Go back to your terminal window.
 2. Open the folder by typing `explorer.exe .` (windows) or `nautilus .` (linux) or `finder .` (macosx)
@@ -92,7 +92,7 @@ Now, we'll make some changes to this very repository, and tell Git that we've do
 
 8. Great! If you visit your repository now on github, you'll be able to see your new changes in your file.
 
-## 5 Making a pull request
+## 6 Making a pull request
 Now that you've made some changes to your local version of git, you'll want to make a pull request. 
 
 > **pull request**: a polite way of asking a project owner to accept your changes.
@@ -102,7 +102,7 @@ Now that you've made some changes to your local version of git, you'll want to m
 3. Email us, and we'll approve it.
 4. Great! Your name is now on our list. Welcome to the club! And welcome to Github!
 
-## 6 Make a repository
+## 7 Make a repository
 Ok, so now you can copy other people's repositories. But what if you want to make your own?
 1. Go back to your terminal window. Type in `cd ..` to go up a directory. 
 2. `mkdir` yourself a new directory, and `cd` into it.
@@ -116,7 +116,7 @@ Ok, so now you can copy other people's repositories. But what if you want to mak
 10. Finally, type `git push origin master`, and check that your changes are saved on the cloud.
 
 
-## 6 Key takeways
+## 8 Key takeways
 - Git is a tool for sharing files. Github is a place where files are stored.
 - Some basic terminal commands for you: `mkdir` to make a directory, `cd` to change directories, and `dir` or `ls` to list the contents of your directory.
 - `git clone <link>` to copy someone's repository
