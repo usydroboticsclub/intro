@@ -3,6 +3,9 @@ Welcome!
 
 In this guide, we will be teaching you how to use `git`, a sharing tool for code. This is a fundamental tool for sharing and collaborating with people, so let's get this right!
 
+## Recording
+Unfortunately, Zoom decided not to save my recording of the session >:( but we have made some changes that hopefully will make it easier for you to successfully complete the tutorial.
+
 ### What's Git?
 `git` is a tool for sharing collections of files which change over time.
 
@@ -27,6 +30,17 @@ Your `git` journey will be different depending on what platform you're using. Se
 ### Linux
 1. Follow the instructions here: <https://git-scm.com/downloads>
 2. If you're using Linux, I'm assuming you know what the terminal, `apt`, and `sudo` are. If not, well, ask me.
+
+### WARNING
+Once you've installed `git`, you'll need to CLOSE ALL PREVIOUSLY OPEN COMMAND WINDOWS, as older command windows will not recognise `git` as a command.
+
+## 1.5 A few more things before we start
+Type in:
+```
+git config --global user.name "YOUR_NAME"
+git config --global user.email "MY_NAME@example.com"
+```
+This tells git who you are, for when you're working with others. You only need to do this once.
 
 ## 2 Your first git repository
 Now, let's copy over this repository, to see how we can get files quickly using git.
@@ -108,7 +122,7 @@ Ok, so now you can copy other people's repositories. But what if you want to mak
 2. `mkdir` yourself a new directory, and `cd` into it.
 3. Type in `git init .`. This tells git to start considering this directory as a repository.
 4. Go to www.github.com, and make yourself a new repository, with the big `+` button in the top right corner. **DO** add a `README.md`, for the purposes of this exercise.
-5. Type in `git remote add origin <your_github_url>`. This associates your new repository with the one in your github, since initially they don't know about each other.
+5. Type in `git remote add origin https://your_github_url`. This associates your new repository with the one in your github, since initially they don't know about each other.
 6. Type in `git pull origin master`. This tells git to fetch the files from your github repository and put them on your computer. It's the opposite of `git push`. 
 7. Type `ls` or `dir` again. You should now see the readme.md file on your computer.
 8. Make a few changes to the readme.md. Maybe add a few new files in the same folder.
