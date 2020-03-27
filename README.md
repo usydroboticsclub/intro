@@ -4,7 +4,17 @@ Welcome!
 In this guide, we will be teaching you how to use `git`, a sharing tool for code. This is a fundamental tool for sharing and collaborating with people, so let's get this right!
 
 ## Recording
-Unfortunately, Zoom decided not to save my recording of the session >:( but we have made some changes that hopefully will make it easier for you to successfully complete the tutorial.
+The recording can be accessed here:
+```
+The password for these recordings is o9TNP9_6Jypb
+The below links will expire on 26-09-2020 and will become unavailable for download after this date.
+Audio Only (26.94 MB)
+https://cloudstor.aarnet.edu.au/plus/s/yD2gTOFG9DIFGrT
+Other (1.75 KB)
+https://cloudstor.aarnet.edu.au/plus/s/RITsUDfxfdFhRve
+Video (179.20 MB)
+https://cloudstor.aarnet.edu.au/plus/s/5nzoVfNwmTTfErP
+```
 
 ### What's Git?
 `git` is a tool for sharing collections of files which change over time.
