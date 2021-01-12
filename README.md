@@ -157,11 +157,7 @@ If this is the case, then try `git pull origin main` instead (Git has some funny
 
 
 
-## Further reading
-- [More git commands - todo]
-
-
-I've looked around for good explanations of `git` for beginners, but everyone seems to assume that if you want to learn `git` then you must be a developer. So I wrote my own. Anyways... Let's get started.
-
-
-`git` was created to solve the problem of collaborating in code. Collaboration is a problem because if two people edit something at the same time, then they need to go and figure out and compare their versions to make sure that both their work is valid. Git streamlines this. 
+## To add?
+- Branches
+- .gitignore
+- Common errors
