@@ -35,8 +35,10 @@ Your `git` journey will be different depending on what platform you're using. Se
 4. Choose 'Use windows' default console window' when you get to it.
 5. Leave the rest of the config as is.
 ### MacOSX
-1. If you're on MacOSX, you'll need to start by downloading git. Go here: <https://git-scm.com/downloads>
-2. Click the installer. I don't MacOSX much, so if someone could fill in this part I'd be grateful.
+1. If you're on MacOSX, you'll need to start by installing Homebrew, which then can install git, so copy this link: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+2. Open up Terminal, which can be found through Spotlight, paste the link and then press enter. (You might need to enter your computer password)
+3. Next press enter when prompted, and let the terminal install Homebrew. You'll know this is over when you stop getting prompts.
+4. Type `brew install git` into terminal and press enter, this is installing Git. Just let the computer do its thing and you're done.
 ### Linux
 1. Follow the instructions here: <https://git-scm.com/downloads>
 2. If you're using Linux, I'm assuming you know what the terminal, `apt`, and `sudo` are. If not, well, ask me.
@@ -100,7 +102,7 @@ In github, you are either an owner / collaborator on a project, or a third party
 
 > **Fork:** To create a copy of a repository. But it's slightly different - if you're interested, read on here (todo).
 
-2. Once you've forked this repository, clone it using the steps in part 2. Since this is your copy, you are the owner, so you can change it willy nilly. Let's go do that now.
+2. Once you've forked this repository, clone it using the steps in part 2, but make sure you're working in your personal directory (you should see YOUR NAME/intro up the top). Since this is your copy, you are the owner, so you can change it willy nilly. Let's go do that now.
 
 ## 5 Your first changes
 Now, we'll make some changes to this very repository, and tell Git that we've done so.
