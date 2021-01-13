@@ -44,9 +44,33 @@ Your `git` journey will be different depending on what platform you're using. Se
 2. If you're using Linux, I'm assuming you know what the terminal, `apt`, and `sudo` are. If not, well, ask me.
 
 ### WARNING
-Once you've installed `git`, you'll need to CLOSE ALL PREVIOUSLY OPEN COMMAND WINDOWS, as older command windows will not recognise `git` as a command.
+Once you've installed `git`, you'll need to CLOSE AND REOPEN ALL PREVIOUSLY OPEN TERMINAL WINDOWS, as older terminal windows will not recognise `git` as a command.
 
-## 1.5 A few more things before we start
+## 2 Using the terminal
+1. Open a terminal window.
+  - Windows: Type in 'cmd' into your start. If all goes well, a black cmd window should appear.
+  - Linux: Type in 'terminal' into your start. If all goes well, a black terminal window should appear.
+  - OSX: Type in 'terminal' into your launcher. If all goes well, a white terminal window should appear.
+2. [Mac Only] Type in `pwd`. This stands for "Print Working Directory", and will tell you where your terminal is currently working in.
+  - If you're on Windows, cmd should constantly show you where you are via the path in front of the arrow.
+3. Open a normal file explorer, so you can see what's going on.
+  - Windows: Type `explorer .`
+  - OSX: Type `open .`
+  - Linux: Type `nautilus .`
+3. Type in `mkdir USRC_TEST`. This will make a new folder called USRC_TEST. Verify in your file explorer that there is a new folder there.
+4. Type in `cd USRC_TEST`. This will move your terminal window to work in your new folder.
+  - OSX, Linux: Type `pwd` again and verify that the directory has changed.
+  - Windows: Check that your cmd path now has USRC_TEST at the end of it.
+5. Type in `cd ..`. This will move your terminal window back out of your folder.
+  - OSX, Linux: Type `pwd` again and check it's doing what you want.
+  - Windows: Your path should no longer have USRC_TEST at the end of it.
+6. Try making another folder inside of USRC_TEST, using the commands above.
+7. Make an empty file in your USRC_TEST folder. First `cd` until you reach USRC_TEST, then:
+  - OSX,Linux: `touch newfile.txt` 
+  - Windows: `type nul > newfile.txt`
+8. Use the file explorer to check that everything is as you expect.
+
+## 2.5 A few more things before we start
 Type in:
 ```
 git config --global user.name "YOUR_NAME"
@@ -54,7 +78,7 @@ git config --global user.email "MY_NAME@example.com"
 ```
 This tells git who you are, for when you're working with others. You only need to do this once.
 
-## 2 Your first git repository
+## 3 Your first git repository
 Now, let's copy over this repository, to see how we can get files quickly using git.
 
 > **repository**: A collection of files.  
@@ -86,23 +110,34 @@ remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (3/3), 675 bytes | 51.00 KiB/s, done.
 ```
 
-7. Look around, by typing `cd intro`, and then either `dir` (windows) or `ls` (macos or linux). You should see `README.md`, which is this file, and some other stuff. 
+7. Look around, by typing `cd intro`, and then either `dir` (windows) or `ls` (macos or linux). You should see `README.md`, which is this file, and some other stuff. These are the same files that are in this repository, if you scroll to the top.
+
+8. Take a look at `Completed.md` using your file explorer. Find the file and open it with notepad/textedit. 
+
+9. Go back to your terminal and type in:
+ - Windows: `type Completed.md`
+ - Mac/Linux: `cat Completed.md`.
+Is it the same?
+
+10. `cd` back out to the `USRC_TEST` directory, and `mkdir MYFORK` and `cd MYFORK` in preparation for the next part.
 
 And that's it! If you want to practice this, then why not try cloning some other stuff on github, like [this one](https://github.com/rick/roll). 
 
-## 3 Getting started with github
+## 4 Getting started with github
 You can use git with 2 computers directly, but chances are that you don't have two computers on hand; so instead we'll have to use github as a third party. Let's get you signed up to github.
 1. Go here: https://github.com/
 2. Sign up, in the top right corner.
 3. That's it. Github is nice and easy.
 
-## 4 Fork this
-In github, you are either an owner / collaborator on a project, or a third party. If you're a collaborator, it's a lot easier to make changes; but if you're a third party to a project, you can't just gatecrash the owner's work. Instead, you'll have to *ask them nicely*. Let's see about how to do both.
+## 5 Fork this repository
+The polite way of making changes to a repository on github is to copy it to your own github repository. This is called forking, and happens ALL on github. 
+
 1. If you're reading this, you should be able to see the `Fork` button in the top right corner. Press that button. 
 
-> **Fork:** To create a copy of a repository. But it's slightly different - if you're interested, read on here (todo).
+> **Fork:** To create a copy of someone else's repository in your personal repository.
 
 2. Once you've forked this repository, clone it using the steps in part 2, but make sure you're working in your personal directory (you should see yourname/intro up the top). Since this is your copy, you are the owner, so you can change it willy nilly. Let's go do that now.
+
 
 ## 5 Your first changes
 Now, we'll make some changes to this very repository, and tell Git that we've done so.
@@ -116,7 +151,7 @@ Now, we'll make some changes to this very repository, and tell Git that we've do
 
 > **git push \<remote_location\> \<branch\>** : Pass your work on to someone else. If they'll take it. 
 
-8. Great! If you visit your repository now on github, you'll be able to see your new changes in your file.
+8. Great! If you visit your forked repository now on github, you'll be able to see your new changes in your file.
 
 ## 6 Making a pull request
 Now that you've made some changes to your local version of git, you'll want to make a pull request. 
@@ -124,13 +159,13 @@ Now that you've made some changes to your local version of git, you'll want to m
 > **pull request**: a polite way of asking a project owner to accept your changes.
 
 1. Press the `Pull requests` tab on your own github repository.
-2. Click `Submit a pull request`.
+2. Click `Submit a pull request`, then click the green button(s).
 3. Email us, and we'll approve it.
 4. Great! Your name is now on our list. Welcome to the club! And welcome to Github!
 
 ## 7 Make a repository
 Ok, so now you can copy other people's repositories. But what if you want to make your own?
-1. Go back to your terminal window. Type in `cd ..` to go up a directory. 
+1. Go back to your terminal window. `cd` to USRC_TEST again. 
 2. `mkdir` yourself a new directory, and `cd` into it.
 3. Type in `git init .`. This tells git to start considering this directory as a repository.
 4. Go to www.github.com, and make yourself a new repository, with the big `+` button in the top right corner. **DO** add a `README.md`, for the purposes of this exercise.
