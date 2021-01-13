@@ -48,26 +48,26 @@ Once you've installed `git`, you'll need to CLOSE AND REOPEN ALL PREVIOUSLY OPEN
 
 ## 2 Using the terminal
 1. Open a terminal window.
-  - Windows: Type in 'cmd' into your start. If all goes well, a black cmd window should appear.
-  - Linux: Type in 'terminal' into your start. If all goes well, a black terminal window should appear.
-  - OSX: Type in 'terminal' into your launcher. If all goes well, a white terminal window should appear.
+   - Windows: Type in 'cmd' into your start. If all goes well, a black cmd window should appear.
+   - Linux: Type in 'terminal' into your start. If all goes well, a black terminal window should appear.
+   - OSX: Type in 'terminal' into your launcher. If all goes well, a white terminal window should appear.
 2. [Mac Only] Type in `pwd`. This stands for "Print Working Directory", and will tell you where your terminal is currently working in.
-  - If you're on Windows, cmd should constantly show you where you are via the path in front of the arrow.
+   - If you're on Windows, cmd should constantly show you where you are via the path in front of the arrow.
 3. Open a normal file explorer, so you can see what's going on.
-  - Windows: Type `explorer .`
-  - OSX: Type `open .`
-  - Linux: Type `nautilus .`
+   - Windows: Type `explorer .`
+   - OSX: Type `open .`
+   - Linux: Type `nautilus .`
 3. Type in `mkdir USRC_TEST`. This will make a new folder called USRC_TEST. Verify in your file explorer that there is a new folder there.
 4. Type in `cd USRC_TEST`. This will move your terminal window to work in your new folder.
-  - OSX, Linux: Type `pwd` again and verify that the directory has changed.
-  - Windows: Check that your cmd path now has USRC_TEST at the end of it.
+   - OSX, Linux: Type `pwd` again and verify that the directory has changed.
+   - Windows: Check that your cmd path now has USRC_TEST at the end of it.
 5. Type in `cd ..`. This will move your terminal window back out of your folder.
-  - OSX, Linux: Type `pwd` again and check it's doing what you want.
-  - Windows: Your path should no longer have USRC_TEST at the end of it.
+   - OSX, Linux: Type `pwd` again and check it's doing what you want.
+   - Windows: Your path should no longer have USRC_TEST at the end of it.
 6. Try making another folder inside of USRC_TEST, using the commands above.
 7. Make an empty file in your USRC_TEST folder. First `cd` until you reach USRC_TEST, then:
-  - OSX,Linux: `touch newfile.txt` 
-  - Windows: `type nul > newfile.txt`
+   - OSX,Linux: `touch newfile.txt` 
+   - Windows: `type nul > newfile.txt`
 8. Use the file explorer to check that everything is as you expect.
 
 ## 2.5 A few more things before we start
