@@ -21,3 +21,5 @@ Patricia Nguyen, 2021 :)
 Jay Zhang, 2021 :p
 
 Grace Piroscia, 2021 ∞
+
+Qingyi Wang, 2021 (-_-)
