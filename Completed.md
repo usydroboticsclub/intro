@@ -25,3 +25,21 @@ Grace Piroscia, 2021 ∞
 Qingyi Wang, 2021 (-_-)
 
 ZONG Ziln,2021
+
+Alex Garrett-Jones 2021 ...
+
+Jarvis Du 2021 XD
+
+Jun Mo 2021
+
+Januka Perera 2021 :)
+
+Ee Seong Ling, 2021
+
+Josiah Tan 2021 (vim is cool)
+
+Yupeng Zhang 2021 (VS Code is the best)
+
+Wenwei Li, 2021
+
+Jiayi Sun, 2021 '.'
