@@ -50,6 +50,8 @@ Cheryl Hao, 2021 666
 
 Tiantian Wang 2021
 
+Gerry Lu 2021 !=!
+
 Partha Majumder, 2021
 
 Vaastav Varma, 2021 :)
@@ -57,3 +59,21 @@ Vaastav Varma, 2021 :)
 Narcy Liu 2021
 
 Kwadwo Kusi Boamah-Addai (2021)
+
+Samuel Lau  UwU
+
+Alexander Mangos 2021
+
+Shail Patel 2021
+
+Bill Kinder, 2021 o7
+
+James Verco, 2021
+
+Dani Bianchi 2021
+
+Kousha Aslani 2021
+
+Jordan Guyot 2021 
+
+Leon Ortega 2021
