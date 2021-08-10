@@ -72,6 +72,8 @@ James Verco, 2021
 
 Dani Bianchi 2021
 
+Nick Freeborn 2021 (¬‿¬)
+
 Kousha Aslani 2021
 
 Jordan Guyot 2021 
