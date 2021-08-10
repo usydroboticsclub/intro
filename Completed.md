@@ -58,6 +58,8 @@ Vaastav Varma, 2021 :)
 
 Narcy Liu 2021
 
+Kwadwo Kusi Boamah-Addai (2021)
+
 Samuel Lau  UwU
 
 Alexander Mangos 2021
