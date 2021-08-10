@@ -57,3 +57,11 @@ Vaastav Varma, 2021 :)
 Narcy Liu 2021
 
 Alexander Mangos 2021
+
+Shail Patel 2021
+
+Bill Kinder, 2021 o7
+
+James Verco, 2021
+
+Dani Bianchi 2021
