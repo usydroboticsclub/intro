@@ -55,3 +55,5 @@ Partha Majumder, 2021
 Vaastav Varma, 2021 :)
 
 Narcy Liu 2021
+
+Shail Patel 2021
