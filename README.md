@@ -161,9 +161,10 @@ This file's getting pretty long! To unlock the other extras in this tutorial, le
 3. Choose a branch that catches your eye, and type `git checkout <branch-name>`. I'd recommend, in order of usefulness:
 ```
 git checkout making-a-repository
-git checkout how-to-merge (how-to-merge-2 is related and intentional)
-git checkout merge-conflicts (merge-conflicts-2 is related and intentional)
-git checkout git-ignore
-git checkout git-history
-git checkout more-about-git
+git checkout how-to-merge (how-to-merge-2 is related and intentional) [TODO]
+git checkout merge-conflicts (merge-conflicts-2 is related and intentional) [TODO]
+git checkout git-ignore [TODO]
+git checkout git-history [TODO]
+git checkout fun-with-terminal [TODO]
+git checkout more-about-git [TODO]
 ```
