@@ -70,4 +70,6 @@ James Verco, 2021
 
 Dani Bianchi 2021
 
+Jordan Guyot 2021 
+
 Leon Ortega 2021
